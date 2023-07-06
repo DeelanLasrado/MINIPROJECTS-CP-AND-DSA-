@@ -71,6 +71,8 @@ class Main2 {
             decode(str, k);
         else if (s.equals("encode"))
             encode(str, k);
+        else
+            System.out.print("\nwrong input");
     }
 }
 
